@@ -1,1 +1,1 @@
-# Template mod codebase for creating multiloader mods
+# Codebase for the Create: Molten Metals mod
