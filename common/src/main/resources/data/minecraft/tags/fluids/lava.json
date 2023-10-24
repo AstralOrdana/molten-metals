@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    "molten_metals:molten_iron",
+    "molten_metals:flowing_molten_iron",
+    "molten_metals:molten_copper",
+    "molten_metals:flowing_molten_copper",
+    "molten_metals:molten_gold",
+    "molten_metals:flowing_molten_gold",
+    "molten_metals:molten_netherite",
+    "molten_metals:flowing_molten_netherite",
+    "molten_metals:molten_zinc",
+    "molten_metals:flowing_molten_zinc",
+    "molten_metals:molten_brass",
+    "molten_metals:flowing_molten_brass"
+  ]
+}

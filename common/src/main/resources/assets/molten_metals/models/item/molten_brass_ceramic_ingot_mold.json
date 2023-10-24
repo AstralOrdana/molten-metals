@@ -1,0 +1,6 @@
+{
+  "parent": "minecraft:item/generated",
+  "textures": {
+    "layer0": "molten_metals:item/molten_brass_ceramic_ingot_mold"
+  }
+}

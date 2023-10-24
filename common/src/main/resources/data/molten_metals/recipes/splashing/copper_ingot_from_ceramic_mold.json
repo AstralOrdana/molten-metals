@@ -1,0 +1,17 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "molten_metals:molten_copper_ceramic_ingot_mold"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:copper_ingot"
+    },
+    {
+      "chance": 0.80,
+      "item": "molten_metals:ceramic_ingot_mold"
+    }
+  ]
+}

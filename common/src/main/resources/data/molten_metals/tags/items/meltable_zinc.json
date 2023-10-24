@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:zinc_ingot",
+    "minecraft:raw_zinc",
+    {
+      "id": "createaddition:zinc_sheet",
+      "required": false
+    }
+  ]
+}

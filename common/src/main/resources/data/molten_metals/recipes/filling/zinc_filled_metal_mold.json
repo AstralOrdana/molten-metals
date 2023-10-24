@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "molten_metals:ingot_mold"
+    },
+    {
+      "fluid": "molten_metals:molten_zinc",
+      "amount": 81000
+    }
+  ],
+  "results": [
+    {
+      "item": "molten_metals:molten_zinc_ingot_mold"
+    }
+  ]
+}

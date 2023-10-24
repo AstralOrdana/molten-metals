@@ -1,0 +1,18 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:zinc_ingot"
+    },
+    {
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "molten_metals:molten_brass",
+      "amount": 162000
+    }
+  ],
+  "heatRequirement": "heated"
+}

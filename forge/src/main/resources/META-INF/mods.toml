@@ -1,52 +1,37 @@
 
-modLoader="javafml" #mandatory
-
-loaderVersion="[40,)" #mandatory This is typically bumped every Minecraft version by Forge. See our download page for lists of versions.
-
+modLoader="javafml"
+loaderVersion="[40,)"
 license="LGPLv3"
 
-[[mods]] #mandatory
-
-modId="template_mod" #mandatory
-
+[[mods]]
+modId="molten_metals"
 version = "${version}"
+displayName="Molten Metals"
+logoFile="icon.png"
+authors="Ordana, Kayla_the_bee"
+itemIcon="molten_metals:template"
 
-displayName="Template Mod" #mandatory
-
-logoFile="icon.png" #optional
-
-credits="Ordana" #optional
-
-authors="Ordana" #optional
-
-itemIcon="template_mod:template" #catalogue icon
 description='''
-Template Mod Description
+Melt down your metals and cast some ingots!
 '''
 
-[[dependencies.template_mod]] #optional
-    # the modid of the dependency
-    modId="forge" #mandatory
-
-    mandatory=true #mandatory
-
-    versionRange="[40,)" #mandatory
-
+[[dependencies.molten_metals]] 
+    modId="forge" 
+    mandatory=true 
+    versionRange="[40,)" 
     ordering="NONE"
     side="BOTH"
-# Here's another dependency
-[[dependencies.template_mod]]
+    
+[[dependencies.molten_metals]]
     modId="minecraft"
     mandatory=true
-# This version range declares a minimum of the current minecraft version up to but not including the next major version
-    versionRange="[1.19.2,1.20)"
+    versionRange="[1.20.1,1.21)"
     ordering="NONE"
     side="BOTH"
 
-[[dependencies.template_mod]]
-
+[[dependencies.molten_metals]]
     modId="moonlight"
     mandatory=true
-    versionRange="[1.19.2-2.0.35,]"
+    versionRange="[1.20-2.8.51,]"
     ordering="AFTER"
     side="BOTH"

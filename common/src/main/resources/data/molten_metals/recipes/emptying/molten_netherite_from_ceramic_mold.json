@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "molten_metals:molten_netherite_ceramic_ingot_mold"
+    }
+  ],
+  "results": [
+    {
+      "item": "molten_metals:ceramic_ingot_mold"
+    },
+    {
+      "fluid": "molten_metals:molten_netherite",
+      "amount": 81000
+    }
+  ]
+}

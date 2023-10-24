@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "create:zinc_ingot"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "molten_metals:molten_zinc",
+      "amount": 81000
+    }
+  ],
+  "heatRequirement": "heated"
+}

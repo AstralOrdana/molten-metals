@@ -1,0 +1,47 @@
+{
+  "item.molten_metals.unfired_ceramic_ingot_mold": "Unfired Ceramic Ingot Mold",
+  "item.molten_metals.ceramic_ingot_mold": "Ceramic Ingot Mold",
+  "item.molten_metals.ingot_mold": "Ingot Mold",
+
+  "item.molten_metals.molten_iron_bucket": "Bucket of Molten Iron",
+  "item.molten_metals.molten_iron_ceramic_ingot_mold": "Ceramic Ingot Mold of Molten Iron",
+  "item.molten_metals.molten_iron_ingot_mold": "Ingot Mold of Molten Iron",
+  "block.molten_metals.molten_iron": "Molten Iron",
+  "fluid.molten_metals.molten_iron": "Molten Iron",
+  "fluid_type.molten_metals.molten_iron": "Molten Iron",
+
+  "item.molten_metals.molten_copper_bucket": "Bucket of Molten Copper",
+  "item.molten_metals.molten_copper_ceramic_ingot_mold": "Ceramic Ingot Mold of Molten Copper",
+  "item.molten_metals.molten_copper_ingot_mold": "Ingot Mold of Molten Copper",
+  "block.molten_metals.molten_copper": "Molten Copper",
+  "fluid.molten_metals.molten_copper": "Molten Copper",
+  "fluid_type.molten_metals.molten_copper": "Molten Copper",
+
+  "item.molten_metals.molten_gold_bucket": "Bucket of Molten Gold",
+  "item.molten_metals.molten_gold_ceramic_ingot_mold": "Ceramic Ingot Mold of Molten Gold",
+  "item.molten_metals.molten_gold_ingot_mold": "Ingot Mold of Molten Gold",
+  "block.molten_metals.molten_gold": "Molten Gold",
+  "fluid.molten_metals.molten_gold": "Molten Gold",
+  "fluid_type.molten_metals.molten_gold": "Molten Gold",
+
+  "item.molten_metals.molten_netherite_bucket": "Bucket of Molten Netherite",
+  "item.molten_metals.molten_netherite_ceramic_ingot_mold": "Ceramic Ingot Mold of Molten Netherite",
+  "item.molten_metals.molten_netherite_ingot_mold": "Ingot Mold of Molten Netherite",
+  "block.molten_metals.molten_netherite": "Molten Netherite",
+  "fluid.molten_metals.molten_netherite": "Molten Netherite",
+  "fluid_type.molten_metals.molten_netherite": "Molten Netherite",
+
+  "item.molten_metals.molten_zinc_bucket": "Bucket of Molten Zinc",
+  "item.molten_metals.molten_zinc_ceramic_ingot_mold": "Ceramic Ingot Mold of Molten Zinc",
+  "item.molten_metals.molten_zinc_ingot_mold": "Ingot Mold of Molten Zinc",
+  "block.molten_metals.molten_zinc": "Molten Zinc",
+  "fluid.molten_metals.molten_zinc": "Molten Zinc",
+  "fluid_type.molten_metals.molten_zinc": "Molten Zinc",
+
+  "item.molten_metals.molten_brass_bucket": "Bucket of Molten Brass",
+  "item.molten_metals.molten_brass_ceramic_ingot_mold": "Ceramic Ingot Mold of Molten Brass",
+  "item.molten_metals.molten_brass_ingot_mold": "Ingot Mold of Molten Brass",
+  "block.molten_metals.molten_brass": "Molten Brass",
+  "fluid.molten_metals.molten_brass": "Molten Brass",
+  "fluid_type.molten_metals.molten_brass": "Molten Brass"
+}

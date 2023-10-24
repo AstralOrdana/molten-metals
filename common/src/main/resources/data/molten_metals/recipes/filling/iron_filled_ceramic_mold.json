@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "molten_metals:ceramic_ingot_mold"
+    },
+    {
+      "fluid": "molten_metals:molten_iron",
+      "amount": 81000
+    }
+  ],
+  "results": [
+    {
+      "item": "molten_metals:molten_iron_ceramic_ingot_mold"
+    }
+  ]
+}

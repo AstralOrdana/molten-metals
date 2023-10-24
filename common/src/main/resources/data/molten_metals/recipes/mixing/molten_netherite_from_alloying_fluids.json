@@ -1,0 +1,19 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "fluid": "molten_metals:molten_gold",
+      "amount": 81000
+    },
+    {
+      "item": "minecraft:netherite_scrap"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "molten_metals:molten_netherite",
+      "amount": 20250
+    }
+  ],
+  "heatRequirement": "heated"
+}

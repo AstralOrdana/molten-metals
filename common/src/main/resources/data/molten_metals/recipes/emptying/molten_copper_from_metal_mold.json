@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "molten_metals:molten_copper_ingot_mold"
+    }
+  ],
+  "results": [
+    {
+      "item": "molten_metals:ingot_mold"
+    },
+    {
+      "fluid": "molten_metals:molten_copper",
+      "amount": 81000
+    }
+  ]
+}

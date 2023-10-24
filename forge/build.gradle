@@ -15,8 +15,8 @@ loom {
         convertAccessWideners = true
         extraAccessWideners.add loom.accessWidenerPath.get().asFile.name
 
-        mixinConfig  "template_mod-common.mixins.json"
-        mixinConfig  "template_mod.mixins.json"
+        mixinConfig  "molten_metals-common.mixins.json"
+        mixinConfig  "molten_metals.mixins.json"
     }
 }
 

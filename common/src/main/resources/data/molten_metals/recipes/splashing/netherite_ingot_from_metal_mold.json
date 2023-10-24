@@ -1,0 +1,16 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "molten_metals:molten_netherite_ingot_mold"
+    }
+  ],
+  "results": [
+    {
+      "item": "minecraft:netherite_ingot"
+    },
+    {
+      "item": "molten_metals:ingot_mold"
+    }
+  ]
+}

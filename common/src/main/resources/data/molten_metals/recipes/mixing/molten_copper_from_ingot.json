@@ -1,0 +1,15 @@
+{
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "item": "minecraft:copper_ingot"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "molten_metals:molten_copper",
+      "amount": 81000
+    }
+  ],
+  "heatRequirement": "heated"
+}

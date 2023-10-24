@@ -3,7 +3,7 @@ architectury {
 }
 
 loom {
-    accessWidenerPath = file("src/main/resources/template_mod.accesswidener")
+    accessWidenerPath = file("src/main/resources/molten_metals.accesswidener")
 }
 
 dependencies {

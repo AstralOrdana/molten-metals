@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "molten_metals:ingot_mold"
+    },
+    {
+      "fluid": "molten_metals:molten_netherite",
+      "amount": 81000
+    }
+  ],
+  "results": [
+    {
+      "item": "molten_metals:molten_netherite_ingot_mold"
+    }
+  ]
+}

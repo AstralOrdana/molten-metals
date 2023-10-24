@@ -1,7 +1,6 @@
 {
     "pack": {
-        "description": "Template Mod resources",
-        "pack_format": 6,
-        "_comment": "stuff"
+        "description": "Molten Metals resources",
+        "pack_format": 15
     }
 }

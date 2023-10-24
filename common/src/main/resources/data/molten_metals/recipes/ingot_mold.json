@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "X X",
+    "SSS"
+  ],
+  "key": {
+    "X": {
+      "item": "minecraft:iron_ingot"
+    },
+    "S": {
+      "item": "create:iron_sheet"
+    }
+  },
+  "result": {
+    "item": "molten_metals:ingot_mold"
+  }
+}

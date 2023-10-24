@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:gold_ingot",
+    "minecraft:raw_gold",
+    "create:gold_sheet"
+  ]
+}

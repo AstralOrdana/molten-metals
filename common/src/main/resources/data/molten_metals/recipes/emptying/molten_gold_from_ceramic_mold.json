@@ -1,0 +1,17 @@
+{
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "molten_metals:molten_gold_ceramic_ingot_mold"
+    }
+  ],
+  "results": [
+    {
+      "item": "molten_metals:ceramic_ingot_mold"
+    },
+    {
+      "fluid": "molten_metals:molten_gold",
+      "amount": 81000
+    }
+  ]
+}
