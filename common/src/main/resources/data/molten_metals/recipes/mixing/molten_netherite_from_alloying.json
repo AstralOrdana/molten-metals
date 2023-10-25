@@ -2,16 +2,8 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "item": "minecraft:gold_ingot"
-    },
-    {
-      "item": "minecraft:gold_ingot"
-    },
-    {
-      "item": "minecraft:gold_ingot"
-    },
-    {
-      "item": "minecraft:gold_ingot"
+      "fluid": "molten_metals:molten_gold",
+      "amount": 32400
     },
     {
       "item": "minecraft:netherite_scrap"
@@ -29,8 +21,8 @@
   "results": [
     {
       "fluid": "molten_metals:molten_netherite",
-      "amount": 81000
+      "amount": 8100
     }
   ],
-  "heatRequirement": "superheated"
+  "heatRequirement": "heated"
 }

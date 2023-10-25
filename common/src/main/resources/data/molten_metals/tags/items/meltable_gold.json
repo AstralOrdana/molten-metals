@@ -3,6 +3,7 @@
   "values": [
     "minecraft:gold_ingot",
     "minecraft:raw_gold",
-    "create:gold_sheet"
+    "create:golden_sheet",
+    "create:crushed_raw_gold"
   ]
 }

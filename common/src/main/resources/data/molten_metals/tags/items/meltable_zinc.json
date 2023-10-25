@@ -1,8 +1,9 @@
 {
   "replace": false,
   "values": [
-    "minecraft:zinc_ingot",
-    "minecraft:raw_zinc",
+    "create:zinc_ingot",
+    "create:raw_zinc",
+    "create:crushed_raw_zinc",
     {
       "id": "createaddition:zinc_sheet",
       "required": false

@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:iron_nugget",
+    {
+      "id": "spelunkery:raw_iron_nugget",
+      "required": false
+    }
+  ]
+}

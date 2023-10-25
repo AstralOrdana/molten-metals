@@ -2,13 +2,13 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "item": "create:brass_ingot"
+      "tag": "molten_metals:meltable_brass"
     }
   ],
   "results": [
     {
       "fluid": "molten_metals:molten_brass",
-      "amount": 81000
+      "amount": 8100
     }
   ],
   "heatRequirement": "heated"

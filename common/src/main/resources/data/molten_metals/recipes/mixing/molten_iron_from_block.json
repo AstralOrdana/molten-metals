@@ -2,13 +2,13 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "tag": "molten_metals:meltable_gold"
+      "tag": "molten_metals:meltable_iron_blocks"
     }
   ],
   "results": [
     {
-      "fluid": "molten_metals:molten_gold",
-      "amount": 8100
+      "fluid": "molten_metals:molten_iron",
+      "amount": 72900
     }
   ],
   "heatRequirement": "heated"

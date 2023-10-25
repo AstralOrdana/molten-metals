@@ -3,6 +3,7 @@
   "values": [
     "minecraft:copper_ingot",
     "minecraft:raw_copper",
-    "create:copper_sheet"
+    "create:copper_sheet",
+    "create:crushed_raw_copper"
   ]
 }

@@ -1,0 +1,7 @@
+{
+  "replace": false,
+  "values": [
+    "minecraft:iron_block",
+    "minecraft:raw_iron_block"
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "replace": false,
+  "values": [
+    "create:copper_nugget",
+    {
+      "id": "spelunkery:copper_nugget",
+      "required": false
+    },
+    {
+      "id": "spelunkery:raw_copper_nugget",
+      "required": false
+    }
+  ]
+}

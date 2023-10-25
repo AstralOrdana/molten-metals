@@ -2,13 +2,13 @@
   "type": "create:mixing",
   "ingredients": [
     {
-      "tag": "molten_metals:meltable_gold"
+      "item": "create:brass_nugget"
     }
   ],
   "results": [
     {
-      "fluid": "molten_metals:molten_gold",
-      "amount": 8100
+      "fluid": "molten_metals:molten_brass",
+      "amount": 900
     }
   ],
   "heatRequirement": "heated"
