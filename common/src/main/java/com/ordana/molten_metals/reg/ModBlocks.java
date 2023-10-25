@@ -33,20 +33,21 @@ public class ModBlocks {
 
     public static final Supplier<LiquidBlock> MOLTEN_IRON = regBlock("molten_iron", () ->
             MoltenMetalsPlatform.doMoltenMetal(ModFluids.MOLTEN_IRON, BlockBehaviour.Properties.copy(Blocks.LAVA).noCollission().strength(100f).noLootTable().lightLevel((blockStatex) -> 8)));
-
     public static final Supplier<LiquidBlock> MOLTEN_COPPER = regBlock("molten_copper", () ->
             MoltenMetalsPlatform.doMoltenMetal(ModFluids.MOLTEN_COPPER, BlockBehaviour.Properties.copy(Blocks.LAVA).noCollission().strength(100f).noLootTable().lightLevel((blockStatex) -> 8)));
-
     public static final Supplier<LiquidBlock> MOLTEN_GOLD = regBlock("molten_gold", () ->
             MoltenMetalsPlatform.doMoltenMetal(ModFluids.MOLTEN_GOLD, BlockBehaviour.Properties.copy(Blocks.LAVA).noCollission().strength(100f).noLootTable().lightLevel((blockStatex) -> 8)));
-
     public static final Supplier<LiquidBlock> MOLTEN_NETHERITE = regBlock("molten_netherite", () ->
             MoltenMetalsPlatform.doMoltenMetal(ModFluids.MOLTEN_NETHERITE, BlockBehaviour.Properties.copy(Blocks.LAVA).noCollission().strength(100f).noLootTable().lightLevel((blockStatex) -> 8)));
-
     public static final Supplier<LiquidBlock> MOLTEN_ZINC = regBlock("molten_zinc", () ->
             MoltenMetalsPlatform.doMoltenMetal(ModFluids.MOLTEN_ZINC, BlockBehaviour.Properties.copy(Blocks.LAVA).noCollission().strength(100f).noLootTable().lightLevel((blockStatex) -> 8)));
-
     public static final Supplier<LiquidBlock> MOLTEN_BRASS = regBlock("molten_brass", () ->
             MoltenMetalsPlatform.doMoltenMetal(ModFluids.MOLTEN_BRASS, BlockBehaviour.Properties.copy(Blocks.LAVA).noCollission().strength(100f).noLootTable().lightLevel((blockStatex) -> 8)));
+
+    public static final Supplier<LiquidBlock> MOLTEN_BISMUTH = regBlock("molten_bismuth", () ->
+            MoltenMetalsPlatform.doMoltenMetal(ModFluids.MOLTEN_BISMUTH, BlockBehaviour.Properties.copy(Blocks.LAVA).noCollission().strength(100f).noLootTable().lightLevel((blockStatex) -> 8)));
+    public static final Supplier<LiquidBlock> MOLTEN_MERCURY = regBlock("molten_mercury", () ->
+            MoltenMetalsPlatform.doMoltenMetal(ModFluids.MOLTEN_MERCURY, BlockBehaviour.Properties.copy(Blocks.LAVA).noCollission().strength(100f).noLootTable().lightLevel((blockStatex) -> 8)));
+
 
 }

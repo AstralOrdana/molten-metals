@@ -14,40 +14,41 @@ import org.jetbrains.annotations.NotNull;
 
 import java.util.function.Supplier;
 
-public class MoltenIronFluid extends MoltenMetalFluid {
+public class MoltenBismuthFluid extends MoltenMetalFluid {
 
-    public MoltenIronFluid(Properties properties, Supplier<? extends LiquidBlock> block) {
+    public MoltenBismuthFluid(Properties properties, Supplier<? extends LiquidBlock> block) {
         super(properties, block);
     }
 
     @Override
     public ModFluidRenderProperties createRenderProperties() {
         return new MoltenMetalRenderer(
-                MoltenMetals.res("block/molten_iron"),
-                MoltenMetals.res("block/molten_iron_flowing"),
+                MoltenMetals.res("block/molten_bismuth"),
+                MoltenMetals.res("block/molten_bismuth_flowing"),
                 -1,
-                MoltenMetals.res("block/molten_iron_overlay"),
-                MoltenMetals.res("block/molten_iron_overlay"),
+                MoltenMetals.res("block/molten_bismuth_overlay"),
+                MoltenMetals.res("block/molten_bismuth_overlay"),
                 new Vec3(133, 0, 0));
 
     }
 
     @NotNull
     public Fluid getFlowing() {
-        return ModFluids.FLOWING_MOLTEN_IRON.get();
+        return ModFluids.FLOWING_MOLTEN_BISMUTH.get();
     }
 
     @NotNull
     public Fluid getSource() {
-        return ModFluids.MOLTEN_IRON.get();
+        return ModFluids.MOLTEN_BISMUTH.get();
     }
 
     @NotNull
     public Item getBucket() {
-        return ModItems.MOLTEN_IRON_BUCKET.get();
+        return ModItems.MOLTEN_BISMUTH_BUCKET.get();
     }
 
-    public static class Flowing extends MoltenIronFluid {
+
+    public static class Flowing extends MoltenBismuthFluid {
         public Flowing(Properties properties, Supplier<? extends LiquidBlock> block) {
             super(properties, block);
         }
@@ -69,7 +70,7 @@ public class MoltenIronFluid extends MoltenMetalFluid {
         }
     }
 
-    public static class Source extends MoltenIronFluid {
+    public static class Source extends MoltenBismuthFluid {
         public Source(Properties properties, Supplier<? extends LiquidBlock> block) {
             super(properties, block);
         }

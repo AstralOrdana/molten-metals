@@ -31,7 +31,6 @@ public class ModCreativeTabs {
         RegHelper.addItemsToTabsRegistration(ModCreativeTabs::registerItemsToTabs);
     }
 
-
     public static void registerItemsToTabs(RegHelper.ItemToTabEvent e) {
         after(e, Items.WATER_BUCKET, CreativeModeTabs.TOOLS_AND_UTILITIES, "buckets",
                 ModItems.MOLTEN_IRON_BUCKET, ModItems.MOLTEN_COPPER_BUCKET, ModItems.MOLTEN_GOLD_BUCKET,
@@ -41,6 +40,14 @@ public class ModCreativeTabs {
                 ModItems.MOLTEN_NETHERITE_CERAMIC_INGOT_MOLD, ModItems.MOLTEN_ZINC_CERAMIC_INGOT_MOLD, ModItems.MOLTEN_BRASS_CERAMIC_INGOT_MOLD,
                 ModItems.MOLTEN_IRON_INGOT_MOLD, ModItems.MOLTEN_COPPER_INGOT_MOLD, ModItems.MOLTEN_GOLD_INGOT_MOLD,
                 ModItems.MOLTEN_NETHERITE_INGOT_MOLD, ModItems.MOLTEN_ZINC_INGOT_MOLD, ModItems.MOLTEN_BRASS_INGOT_MOLD
+        );
+
+        afterML(e, Items.WATER_BUCKET, CreativeModeTabs.TOOLS_AND_UTILITIES, "buckets", "etcetera",
+                ModItems.MOLTEN_BISMUTH_BUCKET, ModItems.MOLTEN_BISMUTH_CERAMIC_INGOT_MOLD, ModItems.MOLTEN_BISMUTH_INGOT_MOLD
+        );
+
+        afterML(e, Items.WATER_BUCKET, CreativeModeTabs.TOOLS_AND_UTILITIES, "buckets", "spelunkery",
+                ModItems.MOLTEN_MERCURY_BUCKET
         );
     }
 

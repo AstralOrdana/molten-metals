@@ -43,5 +43,17 @@
   "item.molten_metals.molten_brass_ingot_mold": "Ingot Mold of Molten Brass",
   "block.molten_metals.molten_brass": "Molten Brass",
   "fluid.molten_metals.molten_brass": "Molten Brass",
-  "fluid_type.molten_metals.molten_brass": "Molten Brass"
+  "fluid_type.molten_metals.molten_brass": "Molten Brass",
+
+  "item.molten_metals.molten_bismuth_bucket": "Bucket of Molten Bismuth",
+  "item.molten_metals.molten_bismuth_ceramic_ingot_mold": "Ceramic Ingot Mold of Molten Bismuth",
+  "item.molten_metals.molten_bismuth_ingot_mold": "Ingot Mold of Molten Bismuth",
+  "block.molten_metals.molten_bismuth": "Molten Bismuth",
+  "fluid.molten_metals.molten_bismuth": "Molten Bismuth",
+  "fluid_type.molten_metals.molten_bismuth": "Molten Bismuth",
+
+  "item.molten_metals.molten_mercury_bucket": "Bucket of Molten Mercury",
+  "block.molten_metals.molten_mercury": "Molten Mercury",
+  "fluid.molten_metals.molten_mercury": "Molten Mercury",
+  "fluid_type.molten_metals.molten_mercury": "Molten Mercury"
 }

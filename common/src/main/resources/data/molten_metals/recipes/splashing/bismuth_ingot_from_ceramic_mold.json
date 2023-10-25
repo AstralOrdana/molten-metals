@@ -1,0 +1,17 @@
+{
+  "type": "create:splashing",
+  "ingredients": [
+    {
+      "item": "molten_metals:molten_bismuth_ceramic_ingot_mold"
+    }
+  ],
+  "results": [
+    {
+      "item": "etcetera:bismuth_ingot"
+    },
+    {
+      "chance": 0.80,
+      "item": "molten_metals:ceramic_ingot_mold"
+    }
+  ]
+}

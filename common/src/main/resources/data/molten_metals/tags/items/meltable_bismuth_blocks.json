@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "etcetera:bismuth_block",
+      "required": false
+    },
+    {
+      "id": "etcetera:raw_bismuth_block",
+      "required": false
+    }
+  ]
+}

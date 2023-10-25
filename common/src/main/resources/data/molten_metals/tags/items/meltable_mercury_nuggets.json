@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "spelunkery:rough_cinnabar_shard",
+      "required": false
+    },
+    {
+      "id": "spelunkery:cinnabar_shard",
+      "required": false
+    }
+  ]
+}

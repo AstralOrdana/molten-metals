@@ -1,0 +1,17 @@
+{
+  "type": "create:filling",
+  "ingredients": [
+    {
+      "item": "molten_metals:ingot_mold"
+    },
+    {
+      "fluid": "molten_metals:molten_bismuth",
+      "amount": 8100
+    }
+  ],
+  "results": [
+    {
+      "item": "molten_metals:molten_bismuth_ingot_mold"
+    }
+  ]
+}

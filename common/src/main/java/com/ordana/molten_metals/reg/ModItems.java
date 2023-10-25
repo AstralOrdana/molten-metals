@@ -2,11 +2,9 @@ package com.ordana.molten_metals.reg;
 
 import com.ordana.molten_metals.MoltenMetals;
 import com.ordana.molten_metals.items.MoltenMetalBucketItem;
-import net.mehvahdjukaar.moonlight.api.platform.PlatHelper;
 import net.mehvahdjukaar.moonlight.api.platform.RegHelper;
 import net.minecraft.world.item.Item;
 
-import java.util.Objects;
 import java.util.function.Supplier;
 
 public class ModItems {
@@ -16,13 +14,6 @@ public class ModItems {
 
     public static <T extends Item> Supplier<T> regItem(String name, Supplier<T> itemSup) {
         return RegHelper.registerItem(MoltenMetals.res(name), itemSup);
-    }
-
-    private static boolean isCompatItemEanbled(String requiredMod) {
-        if(Objects.equals(requiredMod, "create")) return requiredMod.equals("create");
-        if(Objects.equals(requiredMod, "sullysmod")) return requiredMod.equals("sullysmod");
-        if(Objects.equals(requiredMod, "oreganized")) return requiredMod.equals("oreganized");
-        return PlatHelper.isModLoaded(requiredMod);
     }
 
     //Buckets
@@ -38,6 +29,11 @@ public class ModItems {
             new MoltenMetalBucketItem(ModFluids.MOLTEN_ZINC.get(), (new Item.Properties().stacksTo(1))));
     public static final Supplier<Item> MOLTEN_BRASS_BUCKET = regItem("molten_brass_bucket", () ->
             new MoltenMetalBucketItem(ModFluids.MOLTEN_BRASS.get(), (new Item.Properties().stacksTo(1))));
+
+    public static final Supplier<Item> MOLTEN_BISMUTH_BUCKET = regItem("molten_bismuth_bucket", () ->
+            new MoltenMetalBucketItem(ModFluids.MOLTEN_BISMUTH.get(), (new Item.Properties().stacksTo(1))));
+    public static final Supplier<Item> MOLTEN_MERCURY_BUCKET = regItem("molten_mercury_bucket", () ->
+            new MoltenMetalBucketItem(ModFluids.MOLTEN_MERCURY.get(), (new Item.Properties().stacksTo(1))));
 
 
     public static final Supplier<Item> UNFIRED_CERAMIC_INGOT_MOLD = regItem("unfired_ceramic_ingot_mold", () ->
@@ -60,6 +56,10 @@ public class ModItems {
     public static final Supplier<Item> MOLTEN_BRASS_CERAMIC_INGOT_MOLD = regItem("molten_brass_ceramic_ingot_mold", () ->
             new Item(new Item.Properties().stacksTo(1)));
 
+    public static final Supplier<Item> MOLTEN_BISMUTH_CERAMIC_INGOT_MOLD = regItem("molten_bismuth_ceramic_ingot_mold", () ->
+            new Item(new Item.Properties().stacksTo(1)));
+
+
     public static final Supplier<Item> MOLTEN_IRON_INGOT_MOLD = regItem("molten_iron_ingot_mold", () ->
             new Item(new Item.Properties().stacksTo(1)));
     public static final Supplier<Item> MOLTEN_COPPER_INGOT_MOLD = regItem("molten_copper_ingot_mold", () ->
@@ -72,4 +72,8 @@ public class ModItems {
             new Item(new Item.Properties().stacksTo(1)));
     public static final Supplier<Item> MOLTEN_BRASS_INGOT_MOLD = regItem("molten_brass_ingot_mold", () ->
             new Item(new Item.Properties().stacksTo(1)));
+
+    public static final Supplier<Item> MOLTEN_BISMUTH_INGOT_MOLD = regItem("molten_bismuth_ingot_mold", () ->
+        new Item(new Item.Properties().stacksTo(1)));
 }
+

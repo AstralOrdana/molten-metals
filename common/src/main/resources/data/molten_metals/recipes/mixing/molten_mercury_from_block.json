@@ -1,0 +1,21 @@
+{
+  "conditions": [
+    {
+      "modid": "spelunkery",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "molten_metals:meltable_mercury_blocks"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "molten_metals:molten_mercury",
+      "amount": 72900
+    }
+  ],
+  "heatRequirement": "heated"
+}

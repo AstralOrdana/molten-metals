@@ -43,4 +43,14 @@ public class ModFluids extends Fluids {
     public static final Supplier<FlowingFluid> MOLTEN_BRASS = RegHelper.registerFluid(MoltenMetals.res("molten_brass"), () ->
             new MoltenBrassFluid.Source(ModFlowingFluid.properties().supportsBoating(true).lightLevel(8), ModBlocks.MOLTEN_BRASS));
 
+    public static final Supplier<FlowingFluid> FLOWING_MOLTEN_BISMUTH = RegHelper.registerFluid(MoltenMetals.res("flowing_molten_bismuth"), () ->
+            new MoltenBismuthFluid.Flowing(ModFlowingFluid.properties().supportsBoating(true).lightLevel(8), ModBlocks.MOLTEN_BISMUTH));
+    public static final Supplier<FlowingFluid> MOLTEN_BISMUTH = RegHelper.registerFluid(MoltenMetals.res("molten_bismuth"), () ->
+            new MoltenBismuthFluid.Source(ModFlowingFluid.properties().supportsBoating(true).lightLevel(8), ModBlocks.MOLTEN_BISMUTH));
+
+    public static final Supplier<FlowingFluid> FLOWING_MOLTEN_MERCURY = RegHelper.registerFluid(MoltenMetals.res("flowing_molten_mercury"), () ->
+            new MoltenMercuryFluid.Flowing(ModFlowingFluid.properties().supportsBoating(true).lightLevel(8), ModBlocks.MOLTEN_MERCURY));
+    public static final Supplier<FlowingFluid> MOLTEN_MERCURY = RegHelper.registerFluid(MoltenMetals.res("molten_mercury"), () ->
+            new MoltenMercuryFluid.Source(ModFlowingFluid.properties().supportsBoating(true).lightLevel(8), ModBlocks.MOLTEN_MERCURY));
+
 }

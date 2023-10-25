@@ -4,28 +4,14 @@ import com.ordana.molten_metals.MoltenMetals;
 import com.ordana.molten_metals.reg.ModFluids;
 import com.ordana.molten_metals.reg.ModItems;
 import net.mehvahdjukaar.moonlight.api.client.ModFluidRenderProperties;
-import net.mehvahdjukaar.moonlight.api.fluids.ModFlowingFluid;
-import net.minecraft.core.BlockPos;
-import net.minecraft.core.Direction;
-import net.minecraft.core.particles.ParticleOptions;
-import net.minecraft.core.particles.ParticleTypes;
-import net.minecraft.sounds.SoundEvent;
-import net.minecraft.sounds.SoundEvents;
-import net.minecraft.util.RandomSource;
 import net.minecraft.world.item.Item;
-import net.minecraft.world.level.GameRules;
-import net.minecraft.world.level.Level;
-import net.minecraft.world.level.LevelReader;
-import net.minecraft.world.level.block.BaseFireBlock;
 import net.minecraft.world.level.block.LiquidBlock;
-import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.material.Fluid;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.phys.Vec3;
 import org.jetbrains.annotations.NotNull;
 
-import java.util.Optional;
 import java.util.function.Supplier;
 
 public class MoltenBrassFluid extends MoltenMetalFluid {
