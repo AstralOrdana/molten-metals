@@ -1,0 +1,36 @@
+{
+  "conditions": [
+    {
+      "type": "forge:or",
+      "values": [
+        {
+          "modid": "caverns_and_chasms",
+          "type": "forge:mod_loaded"
+        },
+        {
+          "modid": "galosphere",
+          "type": "forge:mod_loaded"
+        },
+        {
+          "modid": "oreganized",
+          "type": "forge:mod_loaded"
+        }
+      ]
+    }
+  ],
+  "type": "create:emptying",
+  "ingredients": [
+    {
+      "item": "molten_metals:molten_silver_ceramic_ingot_mold"
+    }
+  ],
+  "results": [
+    {
+      "item": "molten_metals:ceramic_ingot_mold"
+    },
+    {
+      "fluid": "molten_metals:molten_silver",
+      "amount": 144
+    }
+  ]
+}

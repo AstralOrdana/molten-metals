@@ -1,0 +1,37 @@
+{
+  "conditions": [
+    {
+      "type": "forge:or",
+      "values": [
+        {
+          "modid": "caverns_and_chasms",
+          "type": "forge:mod_loaded"
+        },
+        {
+          "modid": "galosphere",
+          "type": "forge:mod_loaded"
+        },
+        {
+          "modid": "oreganized",
+          "type": "forge:mod_loaded"
+        }
+      ]
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "molten_metals:meltable_raw_silver"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "molten_metals:molten_silver",
+      "amount": 144
+    },
+    {
+      "item": "molten_metals:slag"
+    }
+  ],
+  "heatRequirement": "heated"
+}

@@ -1,8 +1,21 @@
 {
   "conditions": [
     {
-      "modid": "caverns_and_chasms",
-      "type": "forge:mod_loaded"
+      "type": "forge:or",
+      "values": [
+        {
+          "modid": "caverns_and_chasms",
+          "type": "forge:mod_loaded"
+        },
+        {
+          "modid": "galosphere",
+          "type": "forge:mod_loaded"
+        },
+        {
+          "modid": "oreganized",
+          "type": "forge:mod_loaded"
+        }
+      ]
     }
   ],
   "type": "create:mixing",

@@ -1,0 +1,34 @@
+{
+  "conditions": [
+    {
+      "type": "forge:or",
+      "values": [
+        {
+          "modid": "caverns_and_chasms",
+          "type": "forge:mod_loaded"
+        },
+        {
+          "modid": "deco",
+          "type": "forge:mod_loaded"
+        },
+        {
+          "modid": "oreganized",
+          "type": "forge:mod_loaded"
+        }
+      ]
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "molten_metals:meltable_netherite_nuggets"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "molten_metals:molten_netherite",
+      "amount": 16
+    }
+  ],
+  "heatRequirement": "heated"
+}
