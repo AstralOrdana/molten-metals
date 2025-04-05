@@ -44,6 +44,6 @@ public class MoldBlock extends Block {
 
   public static boolean canAttach(LevelReader reader, BlockPos pos, Direction direction) {
     BlockPos blockPos = pos.relative(direction);
-    return reader.getBlockState(blockPos).isFaceSturdy(reader, blockPos, direction);
+    return reader.getBlockState(blockPos).isFaceSturdy(reader, blockPos, direction.getOpposite());
   }
 }
