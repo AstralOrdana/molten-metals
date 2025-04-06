@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "modid": "caverns_and_chasms",
+      "type": "forge:mod_loaded"
+    }
+  ],
   "type": "create:splashing",
   "ingredients": [
     {

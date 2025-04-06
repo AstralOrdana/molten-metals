@@ -1,4 +1,10 @@
 {
+  "conditions": [
+    {
+      "modid": "oreganized",
+      "type": "forge:mod_loaded"
+    }
+  ],
   "type": "create:splashing",
   "ingredients": [
     {

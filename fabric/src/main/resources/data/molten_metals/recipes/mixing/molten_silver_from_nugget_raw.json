@@ -1,25 +1,33 @@
 {
   "fabric:load_conditions": [
     {
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "caverns_and_chasms",
+        "galosphere",
+        "oreganized"
+      ]
+    },
+    {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "caverns_and_chasms"
+        "spelunkery"
       ]
     }
   ],
   "type": "create:mixing",
   "ingredients": [
     {
-      "tag": "molten_metals:meltable_raw_silver_blocks"
+      "tag": "molten_metals:meltable_raw_silver_nuggets"
     }
   ],
   "results": [
     {
       "fluid": "molten_metals:molten_silver",
-      "amount": 81000
+      "amount": 1000
     },
     {
-      "item": "molten_metals:slag_block"
+      "item": "molten_metals:slag_nugget"
     }
   ],
   "heatRequirement": "heated"

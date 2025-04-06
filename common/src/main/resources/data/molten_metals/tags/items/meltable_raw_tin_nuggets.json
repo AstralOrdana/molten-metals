@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "spelunkery:raw_tin_nugget",
+      "required": false
+    }
+  ]
+}

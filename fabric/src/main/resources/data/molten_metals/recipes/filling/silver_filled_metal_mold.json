@@ -1,8 +1,12 @@
 {
-  "conditions": [
+  "fabric:load_conditions": [
     {
-      "modid": "oreganized",
-      "type": "forge:mod_loaded"
+      "condition": "fabric:any_mod_loaded",
+      "values": [
+        "caverns_and_chasms",
+        "galosphere",
+        "oreganised"
+      ]
     }
   ],
   "type": "create:filling",
@@ -12,7 +16,7 @@
     },
     {
       "fluid": "molten_metals:molten_silver",
-      "amount": 144
+      "amount": 9000
     }
   ],
   "results": [

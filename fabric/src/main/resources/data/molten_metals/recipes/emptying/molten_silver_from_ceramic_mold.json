@@ -1,9 +1,11 @@
 {
   "fabric:load_conditions": [
     {
-      "condition": "fabric:all_mods_loaded",
+      "condition": "fabric:any_mod_loaded",
       "values": [
-        "galosphere"
+        "caverns_and_chasms",
+        "galosphere",
+        "oreganised"
       ]
     }
   ],

@@ -1,0 +1,28 @@
+{
+  "conditions": [
+    {
+      "modid": "spelunkery",
+      "type": "forge:mod_loaded"
+    },
+    {
+      "modid": "create_dd",
+      "type": "forge:mod_loaded"
+    }
+  ],
+  "type": "create:mixing",
+  "ingredients": [
+    {
+      "tag": "molten_metals:meltable_raw_tin_nuggets"
+    }
+  ],
+  "results": [
+    {
+      "fluid": "molten_metals:molten_tin",
+      "amount": 16
+    },
+    {
+      "item": "molten_metals:slag_nugget"
+    }
+  ],
+  "heatRequirement": "heated"
+}

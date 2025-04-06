@@ -3,20 +3,24 @@
     {
       "condition": "fabric:all_mods_loaded",
       "values": [
-        "galosphere"
+        "create_dd",
+        "spelunkery"
       ]
     }
   ],
   "type": "create:mixing",
   "ingredients": [
     {
-      "tag": "molten_metals:meltable_silver"
+      "tag": "molten_metals:meltable_raw_tin_nuggets"
     }
   ],
   "results": [
     {
-      "fluid": "molten_metals:molten_silver",
-      "amount": 9000
+      "fluid": "molten_metals:molten_tin",
+      "amount": 1000
+    },
+    {
+      "item": "molten_metals:slag_nugget"
     }
   ],
   "heatRequirement": "heated"
